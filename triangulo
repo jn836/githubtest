@@ -1,0 +1,18 @@
+x = 0.0
+y = 0.0
+z = 0.0
+
+x = float(input("valor do lado x:"))
+y = float(input("valor do lado y:"))
+z = float(input("valor do lado z:"))
+
+if (x < y + z) and (y < x + z) and (z < x +y):
+    if (x==y) and (x == z):
+        print ('TRIANGULO EQUILATERO')
+    elif x==y or x==z or y==z:
+        print ('TRIANGULO ISÓSCELES')
+    else:
+        print('TRIANGULO ESCALENO')
+
+else:
+    print('NÃO EXISTE TRIÂNGULO')
