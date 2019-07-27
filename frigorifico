@@ -1,0 +1,26 @@
+id = ""
+id_magro = ''
+id_pesado = ''
+peso = 0.0
+mais_pesado = 0.0
+mais_magro = 1000000
+
+while (True):
+    id = input ("Identificação: ")  #1012 3432 000
+    if id =='000':
+        if mais_magro == 1000000:
+            mais_magro = 0.0
+        break
+
+    peso = float(input('Peso: '))  # 1200 13000 000
+
+    if peso < mais_magro:
+        mais_magro = peso
+        id_magro = id
+
+    if peso > mais_pesado:
+        mais_pesado = peso
+        id_pesado = id
+
+print('Boi mais magro ', id_magro, 'Pesa: ', mais_magro)
+print('Boi mais pesado ', id_pesado, 'Pesa: ', mais_pesado)
