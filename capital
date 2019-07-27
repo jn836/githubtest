@@ -1,0 +1,24 @@
+capital=0.0
+montante=0.0
+n=0.0
+rendimento=0.0
+taxa=0.0
+trimestre=0.0
+x=0.0
+
+capital = float(input("Capital Investido: "))
+taxa = (float(input("Taxa de Juros: "))/100
+x = float(input("Anos de investimento: "))
+
+montate = capital
+trimestre = 1
+n = 4 * x
+
+while(True):
+    rendimento = taxa * montante
+    montante = capital * (1 + taxa ) ** trimestre
+    print (' Rendimento: ', rendimento, ' Montante ', montante)
+    if trimestre == n:
+        break
+
+    trimestre = trimestre + 1
