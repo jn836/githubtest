@@ -1,0 +1,10 @@
+n = input("Calcular faorial de ?: ")
+fatorial =1
+i =2
+while(True):
+    if (i>n)
+         break
+    fatorial=fatorial*i
+    i=i+1
+
+print('Faorial ', fatorial)
