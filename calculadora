@@ -1,0 +1,25 @@
+a=0
+b=0
+operacao = '+'
+
+while(True):
+    a = float(input('digite o primeiro valor: '))
+    b = float(input('digite o segundo valor: '))
+    operacao = input ('qual operação?: ')
+
+    if operacao in '+*-/':
+        if operacao == '+':
+            print(a+b)
+        elif operacao == '-':
+            print(a-b)
+        elif operacao == '*':
+            print(a*b)
+        elif operacao == '/':
+            print(a/b)
+    else:
+        print('Obrigado por usar nosso sistema')
+        break
+
+
+
+
