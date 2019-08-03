@@ -1,0 +1,40 @@
+
+##uma pesquisa sobre algumas caracteristicas fisicas da populçao de uma determinada região, coletou os seguintes dados,
+##referentes a cada habitante para serem analisados:
+
+##sexo (masculino, feminino)
+##cor dos olhos (azul, verde, castanho)
+##cor dos cabelos (louros, castanhos, pretos)
+##idade (anos)
+
+##Para cada habitante foi digitada uma linha com esses dados e ultima linha que nao corresponde a ninguem, comntera
+##o valor de idade igual a 0.
+
+##fazer um algoritmo que dertemine e escreva :
+
+##a
+
+maior_idade = 0
+mulher_no_perfil = 0
+total_mulheres = 0
+while (True):
+    sexo = input("Digite o sexo (m-Masculino) (f-Feminino): ")
+    cor_dos_olhos = input('Digite a cor dos olhos (a-azul,v-verde,c-castanho): ')
+    cor_dos_cabelos = input('Digite a cor dos cabelos (l-louros,c-castanhos,p-pretos): ')
+    idade = int(input('Qual a idade do invidivuo'))
+
+    if idade == 0:
+        break
+
+    if idade <= maior_idade:
+        maior_idade = idade
+
+    if sexo =='f':
+        total_mulheres = mulheres + 1
+        if idade 18 <= and idade <= 35:
+            if cor_dos_olhos == 'v' and cor_dos_cabelos == 'l':
+                mulher_no_perfil = mulher_no_perfil + 1
+
+porcentagem = mulher_no_perfil / mulheres)*100
+print("Perce. de mulheres no perfil: ", porcentagem, "%")
+print("Maior idade entre os pesquisados: ", maior_idade, " anos")
