@@ -1,0 +1,43 @@
+# função que calcula as 4 operações
+def calcular(val1, val2, oper):
+    if val1 and val2:
+        if oper in '+*-/':
+            if oper == '+':
+                result = val1 + val2
+            elif oper == '-':
+                result = val1 - val2
+            elif oper == '*':
+                result = val1 * val2
+            elif oper == '/':
+                result = val1 / val2
+
+def calculadora():
+    while(True):
+        a = float(input('digite o primeiro valor: '))
+        b = float(input('digite o segundo valor: '))
+        operacao = input ('qual operação?: ')
+
+        if operacao =='sair':
+            print("Obrigado por usar nosso sistema...")
+            break
+        else:
+            calcular()
+
+
+
+
+
+calculadora()
+
+
+
+
+
+
+
+
+
+
+
+
+
