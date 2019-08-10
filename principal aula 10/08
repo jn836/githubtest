@@ -1,0 +1,13 @@
+#import modulo1 as mod
+from modulo1 import hora_extra as he, escreve_mensagem as msg
+
+print(msg("primeira aula na play", "m"))
+print(msg("almoço com os pais", "t"))
+print(msg("Cinema com a esposa", "n"))
+
+
+
+
+salario_final = 10000 + he(8, 80.78)
+
+print('Salario Final é ', salario_final)
