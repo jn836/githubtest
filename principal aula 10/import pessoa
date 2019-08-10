@@ -1,0 +1,20 @@
+
+from pessoa import Pessoa
+
+pesl = Pessoa('Joao Manuel', 19)
+pes2 = Pessoa('Andre', 49)
+pes3 = Pessoa('Lucas', 18)
+pes4 = Pessoa('Manoel', 50)
+
+
+print('Nome :' ,pesl.nome)
+print('idade : ', pesl.idade)
+
+print('Nome :' ,pes2.nome)
+print('idade : ', pes2.idade)
+
+print('Nome :' ,pes3.nome)
+print('idade : ', pes3.idade)
+
+print('Nome :' ,pes4.nome)
+print('idade : ', pes4.idade)
