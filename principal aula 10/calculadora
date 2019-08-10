@@ -1,0 +1,22 @@
+from calculadora import Calculadora
+
+a = float(input("Primeiro Valor: "))
+b = float(input("Segundo Valor: "))
+
+resultado = Calculadora(a,b)
+print(resultado.somar())
+print(resultado.subtrair())
+print(resultado.mult())
+print(resultado.dividir())
+
+
+
+soma = Calculadora(a, b)
+subtracao = Calculadora.subtrair(a, b)
+multiplicar = Calculadora.mult(a, b)
+divisao = Calculadora.dividir (a, b)
+
+print(soma)
+print(Subtracao)
+print(multiplicar)
+print(divisao)
