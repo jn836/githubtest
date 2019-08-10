@@ -1,0 +1,10 @@
+def escreve_mensagem(texto, turno):
+   if turno == 'manha' :
+        print('Manhã: ' , texto)
+   elif turno == 'tarde' :
+       print('Tarde: ', texto)
+   elif turno == 'noite' :
+       print('Noite: ', texto)
+
+def hora_extra(horas_trabalhadas, valor_hora):
+    return horas_trabalhadas * valor_hora
