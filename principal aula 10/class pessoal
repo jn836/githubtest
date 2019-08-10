@@ -1,0 +1,13 @@
+
+class Pessoa:
+
+    def __init__(self, nome, idade):
+        self.nome = nome
+        self.idade = idade
+
+    def exibe_nome(self):
+        return self.nome
+
+    def exibe_idade(self):
+        return  self.idade
+
